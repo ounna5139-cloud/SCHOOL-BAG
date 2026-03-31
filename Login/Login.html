@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - School Bags</title>
+    <link rel="stylesheet" href="Login.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-brand">
+            🎒 School Bags
+        </div>
+        <ul class="nav-links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="../shop/shop.html">Shop</a></li>
+            <li><a href="../about/about.html">About</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+            <li><a href="../Login/Login.html">Login</li></a>
+            <li><a href="../Register/Register.html">Register</a></li>
+        </ul>
+        <div class="nav-auth">
+            <a href="login.html" class="active-login">Login</a>
+            <span style="color: #ccc;">|</span>
+            <a href="register.html" class="btn-register">Register</a>
+        </div>
+    </nav>
+
+    <section class="auth-section">
+        <div class="auth-card">
+            <h2>Welcome Back!</h2>
+            <p>Please enter your details to sign in.</p>
+
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="form-control" placeholder="Enter your password"
+                        required>
+                </div>
+
+                <div class="auth-options">
+                    <label class="remember-me">
+                        <input type="checkbox"> Remember me
+                    </label>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+
+                <button type="submit" class="btn-auth">Log In</button>
+            </form>
+
+            <div class="auth-footer">
+                Don't have an account? <a href="register.html">Register here</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        &copy; 2026 School Bags Shop. All Rights Reserved.
+    </footer>
+
+</body>
+
+</html>

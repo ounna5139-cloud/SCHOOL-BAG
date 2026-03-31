@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - School Bags</title>
+    <link rel="stylesheet" href="Register.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            🎒 School Bags
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../shop/shop.html">Shop</a></li>
+            <li><a href="../about/about.html">About</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+            <li><a href="../Login/Login.html">Login</a></li>
+            <li><a href="../Register/Register.html">Register</a></li>
+        </ul>
+        <div class="nav-auth">
+            <a href="login.html" class="btn-login">Login</a>
+            <span style="color: #ccc;">|</span>
+            <a href="register.html" class="active-register">Register</a>
+        </div>
+    </nav>
+
+    <section class="auth-section">
+        <div class="auth-card">
+            <h2>Create an Account</h2>
+            <p>Join us today to get the best deals on school bags!</p>
+
+            <form action="#" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" class="form-control" placeholder="John" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" class="form-control" placeholder="Doe" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="form-control" placeholder="Create a password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" class="form-control"
+                        placeholder="Confirm your password" required>
+                </div>
+
+                <label class="terms-check">
+                    <input type="checkbox" required>
+                    I agree to the <a href="#">Terms of Service</a> & <a href="#">Privacy Policy</a>
+                </label>
+
+                <button type="submit" class="btn-auth">Sign Up</button>
+            </form>
+
+            <div class="auth-footer">
+                Already have an account? <a href="login.html">Log in here</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        &copy; 2026 School Bags Shop. All Rights Reserved.
+    </footer>
+
+</body>
+
+</html>
